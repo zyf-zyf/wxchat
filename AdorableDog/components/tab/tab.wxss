@@ -1,0 +1,18 @@
+.btns {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 42px;
+}
+.btn {
+  display: inline-block;
+  width: 50%;
+  line-height: 42px;
+  background: #03bbd5;
+  text-align: center;
+  color: #fff;
+}
+.btn-active {
+  background: #ff9700;
+}

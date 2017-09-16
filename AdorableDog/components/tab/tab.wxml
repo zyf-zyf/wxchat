@@ -1,0 +1,12 @@
+<view class="btns">
+  	<view class="btn btn-active">
+  		<navigator url="/pages/publish/publish">
+  			{{publish}}
+  		</navigator>
+  	</view>
+  	<view class="btn">
+  		<navigator url="/pages/search/search">
+  			{{search}}
+  		</navigator>
+  	</view>
+</view>

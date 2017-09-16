@@ -1,0 +1,12 @@
+<view class="container">
+    <view class='main-title'>萌宠交易圈</view>
+    
+    <view class="btn-area">
+        <navigator class='main-detail' url="/pages/index/index" hover-class="navigator-hover">宠物交易</navigator>
+        <navigator class='main-detail' url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">饲养心得交流</navigator>
+        <navigator class='main-detail' url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">宠物展示</navigator>
+        <navigator class='main-detail' url="/page/navigate/navigate?title=navigate" hover-class="navigator-hover">爱宠生活趣闻</navigator>
+
+    </view>
+  
+</view>

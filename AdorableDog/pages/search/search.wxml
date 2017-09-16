@@ -1,0 +1,16 @@
+<view class="search-box">
+	<input placeholder="请输入搜索关键字" placeholder-class="placeholder" class="search-input" bindinput="handleInputChange"/>
+	<view class="search-button" bindtap="handleSearchSubmit">搜索</view>
+</view>
+
+<view class="search-list" wx:if="{{hasResult}}">
+	<view class="search-item" wx:for="{{result}}" wx:key="{{item.id}}" bindtap="handleDetailTap" data-index="{{item.id}}">
+		<view class="search-item-area">{{item.province}} - {{item.city}} - {{item.district}} ({{item.type == "sell" ? "出售" :"求购"}})</view>
+		<view>{{item.message}}</view>
+		<view>{{item.contact}}</view>
+	</view>
+</view>
+
+<view class="search-list" wx:if="{{!hasResult}}" >
+	<view class="search-item">sorry，暂无相关信息</view>
+</view>
